@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ОСЧ_Долгопрудный</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            font-size: 18px;
+            background-color: #121212;
+            color: #e0e0e0;
+            margin: 0;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(145deg, #1a1a1a, #252525);
+            padding: 30px 0;
+            border-bottom: 1px solid #333;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            color: #ffffff;
+            font-size: 36px;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .tagline {
+            text-align: center;
+            color: #aaaaaa;
+            font-style: italic;
+            margin-top: 10px;
+        }
+        
+        .content {
+            background-color: #1e1e1e;
+            border-radius: 8px;
+            padding: 30px;
+            margin: 40px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border: 1px solid #333;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+        
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            border: 1px solid #444;
+        }
+        
+        .gallery img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+        }
+        
+        .telegram-link {
+            display: inline-block;
+            background: linear-gradient(145deg, #2a2a2a, #1a1a1a);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 6px;
+            font-weight: bold;
+            margin: 30px auto;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            border: 1px solid #444;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+        
+        .telegram-link:hover {
+            background: linear-gradient(145deg, #3a3a3a, #2a2a2a);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            transform: translateY(-3px);
+        }
+        
+        footer {
+            background: linear-gradient(145deg, #1a1a1a, #111111);
+            padding: 20px 0;
+            text-align: center;
+            color: #777;
+            font-size: 14px;
+            border-top: 1px solid #333;
+            margin-top: 50px;
+        }
+        
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Тату мастер ОСЧ</h1>
+            <div class="tagline">Элитная татуировка в Долгопрудном</div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="content">
+            <p>Дядя ОСЧ — профессиональный тату-мастер из Долгопрудного с более чем 10-летним опытом работы. Специализация: авторские работы в стиле реализм, черно-серая гамма, орнаментальные татуировки.</p>
+            
+            <div class="gallery">
+                <img src="tat.png" alt="Пример работы 1">
+                <img src="tat2.png" alt="Пример работы 2">
+                <img src="tat3.png" alt="Пример работы 3">
+            </div>
+            
+            <div style="text-align: center;">
+                <a href="https://t.me/chertovaigla" class="telegram-link" target="_blank">
+                    Запись на татуировку 
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            © 2023 Тату-студия ОСЧ. Все права защищены.
+            <br>
+            Долгопрудный, Лихачевский проспект
+        </div>
+    </footer>
+</body>
+</html>

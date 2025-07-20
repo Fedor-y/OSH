@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  background-image: url('tat.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* Фон не скроллится */
+  margin: 0; /* Убирает отступы по умолчанию */
+  min-height: 100vh; /* Растягивает на весь экран */
+  color: #333333;
+}
+
+h1 {
+  color: #5988FF;
+  font-size: 24px;
+  font-family: Georgia, serif;
+  text-align: center; /* Центрируем заголовок */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7); /* Полупрозрачный белый фон для текста */
+  border-radius: 10px; /* Скругленные углы */
+  margin: 20px auto; /* Отступы и центрирование */
+  max-width: 80%; /* Чтоб не растягивался на всю ширину */
+}
+
